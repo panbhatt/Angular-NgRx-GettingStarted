@@ -37,6 +37,8 @@ export class ProductListComponent implements OnInit, OnDestroy {
       selectedProduct => (this.selectedProduct = selectedProduct)
     );
 
+    this.store.dispatch(new ProductActions.LOADPRODUCT());
+
     this.productService
       .getProducts()
       .subscribe(

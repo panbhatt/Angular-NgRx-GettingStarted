@@ -192,6 +192,11 @@
   dependencies:
     tslib "^1.9.0"
 
+"@ngrx/effects@6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/effects/-/effects-6.0.0.tgz#da1baa08514179ee07df81f81b297f1c98e0f1ff"
+  integrity sha512-o2abYvivIzov67BjT3BTNuofyjytgC64VBIU3+Nu4sFayL4THth8YoSVoikPMsTWLbkN+4vxe36dqoHzg1VX+w==
+
 "@ngrx/store-devtools@^6.0.0":
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/@ngrx/store-devtools/-/store-devtools-6.1.2.tgz#b9cb8d6bcd7ee0d171dde86c9bdd5e6a5bc5563a"
